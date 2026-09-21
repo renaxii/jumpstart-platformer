@@ -4,7 +4,6 @@
 [ext_resource type="Texture2D" uid="uid://dooktdrahnwrt" path="res://icon.svg" id="1_ig7tw"]
 [ext_resource type="Texture2D" uid="uid://cnq5hfsa7xymw" path="res://Godot.png" id="3_1bvp3"]
 [ext_resource type="Script" uid="uid://br1uqsjrffulr" path="res://end_flag.gd" id="4_1bvp3"]
-[ext_resource type="PackedScene" uid="uid://bjr7imj2r55cj" path="res://end.tscn" id="5_lquwl"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qv858"]
 size = Vector2(9.965343, 10.258923)
@@ -3213,7 +3212,6 @@ sources/0 = SubResource("TileSetAtlasSource_ig7tw")
 sources/1 = SubResource("TileSetAtlasSource_7mycd")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4iqys"]
-size = Vector2(100, 17.307556)
 
 [node name="Node" type="Node" unique_id=1534955504]
 
@@ -3242,17 +3240,8 @@ tile_map_data = PackedByteArray("AAAAAAoAAAAAAAAAAAAAAAsAAAAAAAEAAAAAAAwAAAAAAAI
 tile_set = SubResource("TileSet_qv858")
 
 [node name="End Flag" type="Area2D" parent="." unique_id=429690968]
-position = Vector2(3254, 235)
-collision_layer = 3
+position = Vector2(3300, 215)
 script = ExtResource("4_1bvp3")
-end_screen_scene = ExtResource("5_lquwl")
-
-[node name="Sprite2D" type="Sprite2D" parent="End Flag" unique_id=232517619]
-scale = Vector2(0.07992189, 0.07992189)
-texture = ExtResource("3_1bvp3")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="End Flag" unique_id=357872776]
-scale = Vector2(1, 3.1200194)
 shape = SubResource("RectangleShape2D_4iqys")
-
-[connection signal="body_entered" from="End Flag" to="End Flag" method="_on_body_entered"]

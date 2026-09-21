@@ -3243,9 +3243,8 @@ tile_set = SubResource("TileSet_qv858")
 
 [node name="End Flag" type="Area2D" parent="." unique_id=429690968]
 position = Vector2(3254, 235)
-collision_layer = 3
 script = ExtResource("4_1bvp3")
-end_screen_scene = ExtResource("5_lquwl")
+scene_to_load = ExtResource("5_lquwl")
 
 [node name="Sprite2D" type="Sprite2D" parent="End Flag" unique_id=232517619]
 scale = Vector2(0.07992189, 0.07992189)

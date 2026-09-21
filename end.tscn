@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://bjr7imj2r55cj"]
+
+[ext_resource type="Texture2D" uid="uid://bbqmq3ex1a03k" path="res://Frame 1.png" id="1_egc6y"]
+[ext_resource type="Script" uid="uid://y0hkjoqwadkf" path="res://button.gd" id="2_lt2ag"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_75yvt"]
+load_path = "res://.godot/imported/Frame 2.png-bc165c9facd1596e79bce4791c0614c6.ctex"
+
+[node name="End" type="Node2D" unique_id=1569384082]
+
+[node name="Frame1" type="Sprite2D" parent="." unique_id=945116907]
+position = Vector2(539, 325)
+scale = Vector2(0.6193287, 0.6418982)
+texture = ExtResource("1_egc6y")
+
+[node name="Button" type="Button" parent="." unique_id=1227742821]
+offset_left = 252.0
+offset_top = 376.0
+offset_right = 1897.0
+offset_bottom = 761.0
+scale = Vector2(0.34085652, 0.31999987)
+icon = SubResource("CompressedTexture2D_75yvt")
+script = ExtResource("2_lt2ag")
+
+[node name="Control" type="Control" parent="." unique_id=274714580]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
