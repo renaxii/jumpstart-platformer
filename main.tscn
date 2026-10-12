@@ -1,13 +1,15 @@
 [gd_scene format=4 uid="uid://c22kdppqirw0"]
 
 [ext_resource type="Script" uid="uid://m7fotwinety6" path="res://player.gd" id="1_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://bndleps0e3cx4" path="res://hero-bg.png" id="1_272bh"]
 [ext_resource type="Texture2D" uid="uid://dooktdrahnwrt" path="res://icon.svg" id="1_ig7tw"]
+[ext_resource type="Texture2D" uid="uid://bdjbgnphd8jm5" path="res://excited-hedgehog.png" id="2_7mycd"]
 [ext_resource type="Texture2D" uid="uid://cnq5hfsa7xymw" path="res://Godot.png" id="3_1bvp3"]
 [ext_resource type="Script" uid="uid://br1uqsjrffulr" path="res://end_flag.gd" id="4_1bvp3"]
 [ext_resource type="PackedScene" uid="uid://bjr7imj2r55cj" path="res://end.tscn" id="5_lquwl"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qv858"]
-size = Vector2(9.965343, 10.258923)
+size = Vector2(8.943258, 8.329893)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ig7tw"]
 texture = ExtResource("1_ig7tw")
@@ -3217,17 +3219,22 @@ size = Vector2(100, 17.307556)
 
 [node name="Node" type="Node" unique_id=1534955504]
 
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2034565442]
+position = Vector2(1583.9998, 36.24997)
+scale = Vector2(6.5026736, 3.9103775)
+texture = ExtResource("1_272bh")
+
 [node name="Player" type="CharacterBody2D" parent="." unique_id=1576895700]
 position = Vector2(574, 315)
 script = ExtResource("1_0xm2m")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player" unique_id=1264206362]
-position = Vector2(-394.04004, 49.04001)
-scale = Vector2(0.7818751, 0.7506249)
-texture = ExtResource("1_ig7tw")
+position = Vector2(-392.00006, 41.00003)
+scale = Vector2(0.14341335, 0.14746718)
+texture = ExtResource("2_7mycd")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=2009822603]
-position = Vector2(-394.5, 49.5)
+position = Vector2(-392.5, 41.5)
 scale = Vector2(11.740686, 11.404706)
 shape = SubResource("RectangleShape2D_qv858")
 debug_color = Color(0.08235294, 0.25490198, 0.88235295, 0.41960785)
