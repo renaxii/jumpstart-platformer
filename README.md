@@ -6,10 +6,10 @@ use wasd/arrow keys to move the hedgehog and reach the end. press play again to 
 
 ## image
 #### start
-![end](Screenshot%2026-10-29%160555.png)
+![end](Screenshot%202026-10-29%160555.png)
 
 #### obstacle
-![obstacle](Screenshot%2026-10-29%160640.png)
+![obstacle](Screenshot%202026-10-29%160640.png)
 
 #### end
-![end](Screenshot%2026-10-29%160658.png)
+![end](Screenshot%202026-10-29%160658.png)
