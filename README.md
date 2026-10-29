@@ -5,4 +5,11 @@ platformer game for haven jumpstart
 use wasd/arrow keys to move the hedgehog and reach the end. press play again to play again
 
 ## image
-![screenshot](Screenshot%202026-10-11%20211416.png)
+#### start
+![screenshot](Screenshot%2026-10-29%160555.png)
+
+#### obstacle
+![obstacle](Screenshot%2026-10-29%160640.png)
+
+#### end
+![end](Screenshot%2026-10-29%160658.png)
